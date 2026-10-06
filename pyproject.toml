@@ -1,0 +1,15 @@
+[project]
+name = "hrel"
+version = "0.1.0"
+description = "HRel filter pruning reproduction on CIFAR-10 (VGG-16-bn, ResNet-56)"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.414",
+]
